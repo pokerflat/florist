@@ -1,0 +1,374 @@
+@font-face {
+  font-family: "Forum";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/forum-v10-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
+  src: local("Forum"),
+    url("../fonts/forum-v10-latin_cyrillic-regular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */ url("../fonts/forum-v10-latin_cyrillic-regular.woff2")
+      format("woff2"),
+    /* Super Modern Browsers */
+      url("../fonts/forum-v10-latin_cyrillic-regular.woff") format("woff"),
+    /* Modern Browsers */ url("../fonts/forum-v10-latin_cyrillic-regular.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../fonts/forum-v10-latin_cyrillic-regular.svg#Forum") format("svg"); /* Legacy iOS */
+}
+
+body {
+  font-family: "Forum";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1, 2;
+  color: #ffffff;
+  background-color: #3b181e;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0;
+}
+
+#wrapper {
+  max-width: 1815px;
+  margin: 0 auto;
+}
+
+#header_wrapper {
+  background-image: url(../img/bg.jpg);
+  width: 1920px;
+  height: 920px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#catalog {
+  height: 900px;
+  margin: 0 auto;
+}
+
+#logo {
+  margin-left: 96px;
+  padding-top: 87px;
+}
+
+#menu {
+  margin-right: 90px;
+  padding-top: 87px;
+  align-content: space-between;
+}
+
+#menu :hover {
+  -webkit-filter: invert(30%);
+}
+
+#slider_text {
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  font-size: 120px;
+  line-height: 132px;
+  text-align: center;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  width: 818px;
+  height: 264px;
+}
+
+#watch-projects-wrapper {
+  margin: 0 auto;
+}
+
+#watch-projects-wrapper a {
+  text-decoration: none;
+}
+
+#watch_projects {
+  font-family: "Forum";
+  font-style: normal;
+  width: 199px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+#watch {
+  display: none;
+  font-family: "Forum";
+  font-size: 12px;
+  line-height: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #000000;
+  background-color: white;
+  border: 1px solid white;
+  padding: 19px 22px;
+  text-decoration: none;
+}
+
+#watch-projects-wrapper:hover #watch_projects {
+  display: none;
+}
+#watch-projects-wrapper:hover #watch {
+  display: block;
+}
+
+#three_elements {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 96px;
+  margin-right: 90px;
+}
+
+#social_icon {
+  margin-bottom: 24px;
+}
+
+#social_icon:hover {
+  -webkit-filter: invert(100%);
+}
+
+#watch_catalog {
+  writing-mode: tb-rl;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+}
+
+#centr_button {
+  align-self: flex-end;
+}
+
+#gradient {
+  width: 1920px;
+  height: 75px;
+  background: linear-gradient(0deg, #3b181e 3.33%, rgba(59, 24, 30, 0) 100%);
+}
+
+#service-catalog {
+  font-size: 30px;
+  line-height: 33px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-top: 170px;
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+#service-catalog-bg {
+  position: relative;
+  font-size: 220px;
+  line-height: 243px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.03;
+}
+
+.underline {
+  margin: 0 auto;
+  border: 1px solid #ffffff;
+  width: 85.5px;
+}
+
+.catalog-items-wrapper {
+  position: relative;
+  top: -125px;
+  display: flex;
+  justify-content: center;
+}
+
+.catalog-item {
+  margin-left: 50px;
+  position: relative;
+}
+
+.catalog-item a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.catalog-item:first-child {
+  margin-left: 0px;
+}
+
+.mouse-off {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+  position: absolute;
+  top: 36px;
+  left: 20px;
+}
+
+.item-article-header {
+  display: flex;
+}
+
+.item-article-header p:first-child {
+  font-size: 20px;
+  line-height: 22px;
+  margin-left: 12px;
+}
+
+.item-article-header p:last-child {
+  align-self: flex-end;
+  width: 60px;
+  margin-bottom: 3px;
+  margin-left: 12px;
+  height: 1px;
+  background-color: white;
+}
+
+.item-article-footer {
+  align-self: flex-end;
+}
+
+.item-article-footer p {
+  font-size: 16px;
+  line-height: 170%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  opacity: 0.9;
+}
+
+.special-offer {
+  padding-top: 100px;
+  padding-bottom: 170px;
+}
+
+.offer-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.special-offer__article {
+  display: flex;
+  width: 410px;
+  max-height: 410px;
+  height: 500px;
+  justify-content: center;
+  margin-right: 164px;
+  flex-direction: column;
+}
+
+.offer-title p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 170%;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.offer-line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ffffff;
+  width: 100px;
+}
+
+.offer-description p {
+  font-size: 14px;
+  line-height: 170%;
+}
+
+.offer-link {
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+  width: 220px;
+  height: 30px;
+  background: #010001;
+  margin-top: 40px;
+  text-align: center;
+  padding-top: 15px;
+  text-transform: uppercase;
+}
+
+.offer-link a {
+  text-decoration: none;
+  color: white;
+}
+
+.offer-link:hover {
+  background-color: white;
+}
+
+.offer-link a:hover {
+  color: #000000;
+}
+
+.main-footer {
+  background-color: #3b181e;
+  height: 120px;
+  max-width: 1920px;
+  max-height: 120px;
+  width: 100%;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.main-footer-items {
+  justify-content: center;
+  display: flex;
+}
+
+.footer-item {
+  margin-left: 50px;
+}
+
+.footer-item a {
+  text-decoration: none;
+  margin-left: 50px;
+}
+
+.footer-item p {
+  text-transform: none;
+  font-size: 16px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-item p:hover {
+  color: white;
+}
+
+.main-footer-social {
+  justify-content: center;
+  display: flex;
+}
+
+.social-items {
+  justify-content: center;
+  display: flex;
+}
+
+.social-item {
+  margin: 30px 50px;
+}
+
+.social-item:hover {
+  -webkit-filter: invert(100%);
+}
